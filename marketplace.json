@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "1970-01-01T00:00:00Z",
+  "skills": [
+    {
+      "id": "OhMyYuwan@annotation-training-csv",
+      "name": "annotation-training-csv",
+      "display_name": "Annotation Training CSV",
+      "version": "1.0.0",
+      "author_github": "OhMyYuwan",
+      "description": "Convert YuwanLabWriter annotation training exports into compact CSV training datasets.",
+      "tags": [
+        "annotation",
+        "training",
+        "csv"
+      ],
+      "license": "MIT",
+      "path": "skills/OhMyYuwan@annotation-training-csv",
+      "entry": "SKILL.md",
+      "checksum_sha256": "064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289"
+    }
+  ]
+}

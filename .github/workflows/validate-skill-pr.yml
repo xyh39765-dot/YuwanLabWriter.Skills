@@ -1,0 +1,25 @@
+name: Validate Skill Catalog
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_marketplace.py
+      - name: Validate marketplace
+        run: python scripts/validate_marketplace.py
+      - name: Validate pull request author ownership
+        if: github.event_name == 'pull_request'
+        env:
+          YUWAN_SKILL_AUTHOR_GITHUB: ${{ github.actor }}
+        run: python scripts/validate_marketplace.py
+      - run: git diff --exit-code

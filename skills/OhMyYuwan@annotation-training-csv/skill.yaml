@@ -1,0 +1,19 @@
+id: OhMyYuwan@annotation-training-csv
+name: annotation-training-csv
+display_name: Annotation Training CSV
+version: 1.0.0
+author:
+  github: OhMyYuwan
+description: Convert YuwanLabWriter annotation training exports into compact CSV training datasets.
+tags:
+  - annotation
+  - training
+  - csv
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: 064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289
+updated_at: "2026-05-17"
