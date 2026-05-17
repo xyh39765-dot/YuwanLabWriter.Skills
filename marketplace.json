@@ -17,6 +17,9 @@
       "license": "MIT",
       "path": "skills/OhMyYuwan@annotation-training-csv",
       "entry": "SKILL.md",
+      "skill_url": "skills/OhMyYuwan@annotation-training-csv/skill.yaml",
+      "entry_url": "skills/OhMyYuwan@annotation-training-csv/SKILL.md",
+      "readme_url": "skills/OhMyYuwan@annotation-training-csv/README.md",
       "checksum_sha256": "064bccb7d5e155a5300c99c41b905735260a861ed8b384d167f6e9605ce8d289"
     }
   ]

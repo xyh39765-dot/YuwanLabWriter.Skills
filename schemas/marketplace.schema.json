@@ -29,6 +29,8 @@
           "license",
           "path",
           "entry",
+          "skill_url",
+          "entry_url",
           "checksum_sha256"
         ],
         "properties": {
@@ -65,6 +67,15 @@
           "entry": {
             "type": "string"
           },
+          "skill_url": {
+            "type": "string"
+          },
+          "entry_url": {
+            "type": "string"
+          },
+          "readme_url": {
+            "type": "string"
+          },
           "checksum_sha256": {
             "type": "string"
           }
@@ -75,4 +86,3 @@
   },
   "additionalProperties": false
 }
-

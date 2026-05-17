@@ -37,6 +37,9 @@ def main() -> None:
                 "license": meta.get("license", ""),
                 "path": folder.relative_to(ROOT).as_posix(),
                 "entry": entry,
+                "skill_url": f"{folder.relative_to(ROOT).as_posix()}/skill.yaml",
+                "entry_url": f"{folder.relative_to(ROOT).as_posix()}/{entry}",
+                "readme_url": f"{folder.relative_to(ROOT).as_posix()}/README.md",
                 "checksum_sha256": checksum,
             }
         )
