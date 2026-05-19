@@ -1,0 +1,21 @@
+id: xyh39765-dot@prompts-collection
+name: prompts-collection
+display_name: 写作提示词集合
+version: 1.0.0
+author:
+  github: xyh39765-dot
+description: Curated from Norman-bury/research-writing-skill. Use for translation, polishing, or de-AI-ification of academic text - provides ready-to-use prompt templates. Original source: https://github.com/Norman-bury/research-writing-skill
+tags:
+  - writing
+  - translation
+  - polish
+  - academic
+  - de-ai
+license: MIT
+entry: SKILL.md
+visibility: public
+runtime:
+  kind: instruction-only
+checksum:
+  sha256: d27afaad40b547261cd6936ae5eb69ff17bbfbc16039e69daf87221c4f781b0e
+updated_at: "2026-05-19"
